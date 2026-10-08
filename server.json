@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheCompanyAtlas/malaysia-company-court",
+  "title": "Malaysia Company Registry & Court Cases",
+  "description": "Malaysian company search by name and SSM number, linked to court cases and their parties.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/TheCompanyAtlas/malaysia-company-court-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thecompanyatlas.com/tools/malaysia-companies-court-cases",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thecompanyatlas.com/mcp/malaysia"
+    }
+  ]
+}
